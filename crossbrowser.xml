@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="All Test Suite">
+    <test name="Chrome_SwagLabsTestAutomationTests">
+<!--    <parameter name="OS" value="MacOS" />-->
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testCases.LoginTest">
+                <methods>
+                    <include name="validateRegisteredUserLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Firefox_SwagLabsTestAutomationTests">
+        <!--<parameter name="OS" value="MacOS" />-->
+        <parameter name="browser" value="firefox"/>
+
+        <classes>
+            <class name="testCases.LoginTest">
+                <methods>
+                    <include name="validateRegisteredUserLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
