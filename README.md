@@ -1,7 +1,3 @@
-Certainly! Let's create a **README** for your **GitHub repository** related to the **Test Automation Hybrid Framework** developed using **Page Object Model (POM)** and **TestNG**. Below are the essential sections you can include in your README:
-
----
-
 # Test Automation Hybrid Framework using POM and TestNG
 
 ## Overview
